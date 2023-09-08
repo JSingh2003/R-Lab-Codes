@@ -41,9 +41,9 @@ print(fibonacci(n))
 
 
 #Question 4
-a=as.integer((readline("Enter First number: ")))
-b=as.integer((readline("Enter Second number: ")))
-sign=as.integer(readline("Enter\n1. Addition\n2. Subtraction\n3. multiplication\n4. Division"))
+a <- as.integer((readline("Enter First number: ")))
+b <- as.integer((readline("Enter Second number: ")))
+sign <- as.integer(readline("Enter\n1. Addition\n2. Subtraction\n3. multiplication\n4. Division"))
 if (sign==1){
   print(a + b)
 }else if (sign==2){
