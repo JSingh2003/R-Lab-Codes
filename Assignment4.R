@@ -27,7 +27,7 @@ print(variance)
 x <- c(0,1,2,3)
 px <- c(0.1,0.2,0.2,0.5)
 z=sum(z=x*px)
-y=10*z-12
+y=6*z-4(3-z)
 print(y)
 
 
