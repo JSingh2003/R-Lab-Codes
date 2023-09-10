@@ -54,7 +54,7 @@ prob_x <- (3/4)*((1/4)^((x)-1))
 print(prob_x)
 y <- x**2
 print(y)
-prob_y <-(3/4)*((1/4)^((y)-1)) 
+prob_y <- prob_x
 print(prob_y)
 Expected_Val1 <- sum(y*prob_y)
 print(Expected_Val1)
