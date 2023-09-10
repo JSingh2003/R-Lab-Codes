@@ -6,7 +6,7 @@ print(a)
 
 
 #Question 2
-b <- pnorm(83.99,72,15.2,lower.tail = FALSE)
+b <- pnorm(84,72,15.2,lower.tail = FALSE)
 #b <- 1 - pnorm(84,72,15.2)
 print(b)
 
