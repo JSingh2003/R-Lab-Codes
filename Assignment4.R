@@ -46,3 +46,19 @@ m1<-integrate(f3,1,10)
 print(m1)
 var1<-m2$value-m1$value**2
 print(var1)
+
+
+#Question 5
+x <- c(1:5)
+prob_x <- (3/4)*((1/4)^((x)-1))
+print(prob_x)
+y <- x**2
+print(y)
+prob_y <-(3/4)*((1/4)^((y)-1)) 
+print(prob_y)
+Expected_Val1 <- sum(y*prob_y)
+print(Expected_Val1)
+Expected_Val2 <- sum(y*y*prob_y)
+print(Expected_Val2)
+variance <- Expected_Val2 - Expected_Val1**2
+print(variance)
