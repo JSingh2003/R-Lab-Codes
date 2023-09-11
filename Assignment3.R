@@ -1,6 +1,6 @@
 #Question 1
 a <- dbinom(7,12,1/6) + dbinom(8,12,1/6) + dbinom(9,12,1/6)
-#a <- diff(pbinom(c(6,9),12,1/6,lower.tail))
+#a <- diff(pbinom(c(6,9),12,1/6))
 print(a)
 
 
