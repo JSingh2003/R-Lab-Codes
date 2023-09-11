@@ -30,7 +30,7 @@ print(e)
 x <- c(0:31)
 pmf <- dbinom(x,31,0.447)
 plot(x,pmf)
-cdf <- pbinom(c(0:31),31,0.447)
+cdf <- pbinom(x,31,0.447)
 plot(x,cdf)
 mean1 <- 31*0.447
 variance1 <- mean1*(1-0.447)
